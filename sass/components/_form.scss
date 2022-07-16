@@ -88,7 +88,7 @@
   align-items: center;
 }
 
-.checkbox {
+.agreement__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -100,7 +100,7 @@
   border: 0;
 }
 
-.agreement__text {
+.feedback__agreement {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -108,7 +108,7 @@
   color: $accent-color;
 }
 
-.checkbox__custom {
+.agreement__custom {
   position: absolute;
   top: 4px;
   left: 10px;
@@ -118,7 +118,7 @@
   border-radius: 2px;
 }
 
-.checkbox__icon {
+.agreement__icon {
   position: absolute;
   top: 4px;
   left: 10px;
@@ -127,7 +127,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox:checked + .checkbox__icon {
+.agreement__checkbox:checked + .agreement__icon {
   background-color: $accent-color;
   border-radius: 2px;
   z-index: 1;

@@ -1,5 +1,10 @@
 /* our crew */
 
+.main__crew {
+  background-color: $secondary-background-color;
+  text-align: center;
+}
+
 .crew-list {
   display: flex;
 }
@@ -9,6 +14,7 @@
   font-size: 16px;
   line-height: 1.19;
   color: $secondary-text-color;
+  margin-bottom: 10px;
 }
 
 .crew-list__desc {

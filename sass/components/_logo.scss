@@ -16,7 +16,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo__header--color {
+.logo__span {
   color: #000000;
 
   transition-duration: 250ms;
@@ -28,20 +28,12 @@
   }
 }
 
-.logo__footer {
+.logo__span--color {
+  color: $main-white-color;
+}
+
+.footer__logo {
   padding: 0;
   margin-right: 0;
   margin-bottom: 20px;
-}
-
-.logo__footer--color {
-  color: $main-white-color;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: $accent-color;
-  }
 }
